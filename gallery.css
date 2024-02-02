@@ -1,0 +1,46 @@
+html {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    height: 100%;
+    background-color: black;
+}
+
+.preview {
+    position: relative;
+    height: 60%;
+    width: auto;
+    border: 5px solid white;
+    margin: 3% auto;
+    display: block;
+    visibility: hidden;
+}
+
+#thumbnails {
+    position: relative;
+    height: 20%;
+    /* width: 18px; */
+    width: 20%;
+}
+
+#thumbnails img {
+    height: 100%;
+    display: block;
+    border: 2px solid white;
+    float: left;
+    margin-right: 2px;
+}
+
+#scroll {
+    height: 1px;
+    background-color: azure;
+    margin-bottom: 3%;
+    visibility: hidden;
+}
+
+#scroll svg {
+    position: relative;
+    top: -10px;
+}
